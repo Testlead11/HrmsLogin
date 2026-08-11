@@ -12,7 +12,7 @@ export class commonutils {
         const browser: string = configdata.browser;
         try {
             switch (browser) {
-                case "firefox": this.browser = await firefox.launch({headless: false});
+                case "firefox": this.browser = await firefox.launch({headless: true});
                     break;
                 case "chrome": this.browser = await chromium.launch();
                     break;
