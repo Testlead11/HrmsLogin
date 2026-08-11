@@ -1,0 +1,12 @@
+{
+    "browser":"firefox",
+    "url":"http://127.0.0.1/orangehrm-2.5.0.2/login.php",
+    "username":"Ajitha",
+    "password":"Ajitha",
+    "firstname 1": "Ajitha",
+    "lastname 1": "Ajitha",
+    "emp_code":"007",
+    "ssnno":"2345",
+    "firstname 2": "koti",
+    "lastname 2": "koti"
+}

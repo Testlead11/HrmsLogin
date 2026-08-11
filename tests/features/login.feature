@@ -1,26 +1,10 @@
-  
-Feature: playwright_cucumber
+Feature: Login functionality
 
-Background: 
-Given open the firefox driver
-And navigate the application url
-Scenario: valid login functionality
+Scenario: Verify valid login
 
-When enter username 
-|Ajitha|
-And enter password 
-|Ajitha|
-And click on Login 
+When user login
+Then verify welcome
 
 
-Scenario: invalid login functionality
 
-When enter username 
-|Ajitha|
-And enter password 
-|Ajitha45|
-And click on Login 
 
-Then verify welcome page 
-When click on logout
-When close the browser
